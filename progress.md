@@ -1,10 +1,10 @@
 # Progress
 
-**Status:** HTML in progress. Finished "Why it exists / benefits"; currently at "Where it's used."
+**Status:** HTML in progress. Walkthrough finished; example edited.
 
 **Current phase:** Phase 1 — Static Webpages
 **Current topic:** HTML
-**Next action:** Continue `lessons/01-html/lesson.md` from **Where it's used**. Pause for questions before moving to **How to use it**.
+**Next action:** Review `lessons/01-html/understanding-check.md` after the learner answers it.
 
 ---
 
@@ -76,6 +76,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 Add a one-line entry whenever a topic changes state. Newest at top.
 
+- 2026-06-01: Edited the HTML example into a `2026 Fitness Goals` page.
 - 2026-06-01: Finished HTML "Why it exists / benefits"; moved to "Where it's used."
 - 2026-06-01: Finished HTML "How it works"; moved to "Why it exists / benefits."
 - 2026-06-01: Finished HTML "What it is"; moved to "How it works."
