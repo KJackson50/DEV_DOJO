@@ -1,10 +1,10 @@
 # Progress
 
-**Status:** Curriculum set up. No topic started yet.
+**Status:** HTML in progress. Finished "Why it exists / benefits"; currently at "Where it's used."
 
 **Current phase:** Phase 1 — Static Webpages
-**Current topic:** *(none — ready to start HTML)*
-**Next action:** Say "start HTML" to begin. The tutor will create `lessons/01-html/`.
+**Current topic:** HTML
+**Next action:** Continue `lessons/01-html/lesson.md` from **Where it's used**. Pause for questions before moving to **How to use it**.
 
 ---
 
@@ -13,7 +13,7 @@
 Legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ### Phase 1 — Static Webpages
-- [ ] HTML
+- [~] HTML
 - [ ] CSS
 - [ ] Tailwind CSS
 - [ ] **Checkpoint project:** static webpage
@@ -76,4 +76,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 Add a one-line entry whenever a topic changes state. Newest at top.
 
-- *(no entries yet)*
+- 2026-06-01: Finished HTML "Why it exists / benefits"; moved to "Where it's used."
+- 2026-06-01: Finished HTML "How it works"; moved to "Why it exists / benefits."
+- 2026-06-01: Finished HTML "What it is"; moved to "How it works."
+- 2026-06-01: Started Phase 1 HTML; created `lessons/01-html/` with lesson, example, and understanding check.
