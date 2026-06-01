@@ -18,11 +18,13 @@ Read-only reference content lives in [src/data/roadmaps/](src/data/roadmaps/) (t
 
 DEV_DOJO may reference ecosystem repos when they help the lesson:
 
-- `TECH_LIBRARY` for technical knowledge/reference material
-- `WORK_FACTORY` for bounded build patterns or reusable implementation examples
-- `DATA_STORE` as a pointer-only runtime asset concept, when a lesson needs to discuss persistent data boundaries
+- `TECH_LIBRARY` for processed documentation chunks, technical knowledge, and reference material prepared for lesson use.
+- `WORK_FACTORY` for bounded helper scripts, build patterns, or reusable implementation examples needed by lessons.
+- `DATA_STORE` as the scale-out storage layer if lesson assets, generated examples, or processed references become too large for repo-local storage.
 
 Treat CONTROL_PLANE as the governance and routing authority. Do not create cross-repo dependencies, move data, or write to DATA_STORE unless a CONTROL_PLANE directive explicitly authorizes it.
+
+Keep the boundary simple: TECH_LIBRARY processes source documentation; DEV_DOJO teaches from selected references and tracks learner progress; WORK_FACTORY builds lesson-support tooling when needed; DATA_STORE holds large or persistent assets only after explicit approval.
 
 ## Lesson workflow
 

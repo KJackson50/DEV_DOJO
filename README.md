@@ -33,7 +33,7 @@ After every topic transition, the tutor updates `progress.md`. So when you come 
 
 ## Ecosystem fit
 
-DEV_DOJO is the learning workspace for software-development practice in the wider repo ecosystem. CONTROL_PLANE owns governance and routing. DEV_DOJO can reference `TECH_LIBRARY` for technical source material, `WORK_FACTORY` for bounded build patterns, and `DATA_STORE` as a pointer-only runtime asset concept when lessons need that context.
+DEV_DOJO is the learning workspace for software-development practice in the wider repo ecosystem. CONTROL_PLANE owns governance and routing. TECH_LIBRARY should process documentation into reference chunks first, and DEV_DOJO can use those chunks as lesson source material. WORK_FACTORY can create bounded helper scripts or lesson-support tooling when needed. DATA_STORE is the scale-out storage option if DEV_DOJO lesson assets, generated examples, or processed references become too large for repo-local storage.
 
 ## Switching curricula
 
