@@ -1,6 +1,6 @@
 # Full-Stack Curriculum Index
 
-Maps each node in the **full-stack** roadmap to its dedicated sub-roadmap (when one exists), so Claude can load deep content on demand instead of upfront.
+Maps each node in the **full-stack** roadmap to its dedicated sub-roadmap (when one exists), so ChatGPT/Codex can load deep content on demand instead of upfront.
 
 - **Skeleton:** [full-stack/](src/data/roadmaps/full-stack/content/) — 22 topics + 14 checkpoints
 - **Deep dives:** [src/data/roadmaps/](src/data/roadmaps/) — 87 roadmaps total
@@ -117,7 +117,7 @@ Phases below follow the checkpoint order embedded in the full-stack roadmap.
 
 ## Foundational deep-dives (optional, alongside any phase)
 
-These aren't in the full-stack skeleton but Claude can pull from them when you need first-principles grounding:
+These aren't in the full-stack skeleton but ChatGPT/Codex can pull from them when you need first-principles grounding:
 
 | Roadmap | Nodes | When to pull |
 |---|---|---|
@@ -127,9 +127,9 @@ These aren't in the full-stack skeleton but Claude can pull from them when you n
 
 ---
 
-## How to use this with Claude
+## How to use this with ChatGPT/Codex
 
 1. Open this file in your conversation.
 2. Say: *"Teach me Phase 1, starting with HTML. Use the html sub-roadmap as the depth source."*
-3. Claude reads the topic's skeleton node + the matching sub-roadmap's `content/` directory and walks you through node-by-node.
-4. At each checkpoint, Claude proposes a project that exercises everything in that phase.
+3. ChatGPT/Codex reads the topic's skeleton node + the matching sub-roadmap's `content/` directory and walks you through node-by-node.
+4. ChatGPT/Codex proposes a project that exercises everything in that phase at each checkpoint.

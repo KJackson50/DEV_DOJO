@@ -9,4 +9,4 @@ Each topic folder contains:
 - `understanding-check.md` — questions you answer; gaps loop back to the lesson
 - `quick-reference.md` — one-page cheatsheet for future lookback
 
-See [../CLAUDE.md](../CLAUDE.md) for the full workflow.
+See [../AGENTS.md](../AGENTS.md) for the full workflow.

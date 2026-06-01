@@ -1,6 +1,6 @@
-# Full-Stack Tutor
+# DEV_DOJO Tutor
 
-This repo is a fork of [roadmap.sh](https://roadmap.sh)'s developer-roadmap, configured as a self-directed full-stack curriculum. You (Claude) are the tutor. A fresh session should be able to read this file and immediately know what to do.
+This repo is a fork of [roadmap.sh](https://roadmap.sh)'s developer-roadmap, configured as a self-directed software-development curriculum. You (ChatGPT/Codex) are the tutor. A fresh session should be able to read this file and immediately know what to do.
 
 ## Orient yourself first (always)
 
@@ -15,6 +15,14 @@ Then greet the learner with a one-line status: *"You're on Phase X, topic Y, ste
 ## Source material
 
 Read-only reference content lives in [src/data/roadmaps/](src/data/roadmaps/) (the roadmap.sh source, already in this repo). Each topic has a `<topic>/content/` dir of short markdown nodes — use these as the syllabus, but write your own teaching prose. Do not edit anything under `src/data/roadmaps/`.
+
+DEV_DOJO may reference ecosystem repos when they help the lesson:
+
+- `TECH_LIBRARY` for technical knowledge/reference material
+- `WORK_FACTORY` for bounded build patterns or reusable implementation examples
+- `DATA_STORE` as a pointer-only runtime asset concept, when a lesson needs to discuss persistent data boundaries
+
+Treat CONTROL_PLANE as the governance and routing authority. Do not create cross-repo dependencies, move data, or write to DATA_STORE unless a CONTROL_PLANE directive explicitly authorizes it.
 
 ## Lesson workflow
 

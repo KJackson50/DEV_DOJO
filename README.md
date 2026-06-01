@@ -1,24 +1,23 @@
-# Full-Stack Tutor
+# DEV_DOJO
 
-A self-directed full-stack curriculum driven by an LLM tutor (Claude Code, Cursor, etc.). The syllabus content under `src/data/roadmaps/` is taken **read-only** from [roadmap.sh](https://github.com/kamranahmedse/developer-roadmap); the tutor layer lives at the repo root. The upstream Astro website build has been stripped — this repo is purpose-built for tutor sessions, not for running the roadmap.sh site.
+A self-directed software-development curriculum driven by ChatGPT/Codex. The syllabus content under `src/data/roadmaps/` is taken **read-only** from [roadmap.sh](https://github.com/kamranahmedse/developer-roadmap); the tutor layer lives at the repo root. The upstream Astro website build has been stripped — this repo is purpose-built for tutor sessions, not for running the roadmap.sh site.
 
 ## What's in here
 
 | File / dir | Role |
 |---|---|
-| [CLAUDE.md](CLAUDE.md) | Auto-loaded by Claude Code at session start. Tells the tutor how to orient, the lesson workflow, and the teaching style. |
+| [AGENTS.md](AGENTS.md) | Auto-loaded by Codex at session start. Tells the tutor how to orient, the lesson workflow, and the teaching style. |
 | [progress.md](progress.md) | Single source of truth for what you've completed, in progress, and next. Updated by the tutor as you work. |
 | [curriculum-index.md](curriculum-index.md) | The 13-phase full-stack map. Each topic links to its dedicated deep-dive roadmap under `src/data/roadmaps/`. |
 | [lessons/](lessons/) | One folder per topic gets created here as you go. |
 
 ## Setup
 
-1. **Clone this fork:**
+1. **Open this repo:**
    ```bash
-   git clone https://github.com/donroy26/developer-roadmap.git
-   cd developer-roadmap
+   cd /srv/jackson-server/repos/DEV_DOJO
    ```
-2. **Open Claude Code** (or your LLM tool of choice) in that folder. It will read `CLAUDE.md` automatically.
+2. **Open ChatGPT/Codex** in that folder. It will read `AGENTS.md` automatically.
 3. **Say:** *"start HTML"* — or whichever topic you want to begin with. The tutor will create `lessons/01-html/` and walk you through it.
 
 ## How it works
@@ -32,11 +31,9 @@ When you start a topic, the tutor creates `lessons/<phase-N>-<topic>/` containin
 
 After every topic transition, the tutor updates `progress.md`. So when you come back days later and open a fresh session, the tutor reads `progress.md`, greets you with *"You're on Phase X, topic Y. Ready to continue?"* and picks up where you left off.
 
-## Using with other LLMs
+## Ecosystem fit
 
-`CLAUDE.md` is named for Claude Code, but the file itself is plain markdown. For other tools (Cursor, ChatGPT, Gemini, etc.), either:
-- Rename it to whatever your tool auto-loads (e.g. `.cursorrules`), or
-- Paste its contents into the system prompt / project instructions of your tool.
+DEV_DOJO is the learning workspace for software-development practice in the wider repo ecosystem. CONTROL_PLANE owns governance and routing. DEV_DOJO can reference `TECH_LIBRARY` for technical source material, `WORK_FACTORY` for bounded build patterns, and `DATA_STORE` as a pointer-only runtime asset concept when lessons need that context.
 
 ## Switching curricula
 
