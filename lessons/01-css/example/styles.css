@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: #f3f7f4;
+  color: #1f2933;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #d6e2d9;
+}
+
+h1 {
+  color: #205c3b;
+}
+
+.resource-list {
+  padding-left: 20px;
+}
+
+a {
+  color: #1b4d8a;
+}

@@ -1,10 +1,10 @@
 # Progress
 
-**Status:** HTML complete. Ready to start CSS.
+**Status:** CSS in progress. Walkthrough ready; example scaffolded.
 
 **Current phase:** Phase 1 - Static Webpages
 **Current topic:** CSS
-**Next action:** Start `lessons/01-css/` with lesson scaffold and CSS walkthrough.
+**Next action:** Walk through `lessons/01-css/lesson.md`, starting with "What it is."
 
 ---
 
@@ -14,7 +14,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ### Phase 1 - Static Webpages
 - [x] HTML
-- [ ] CSS
+- [~] CSS
 - [ ] Tailwind CSS
 - [ ] **Checkpoint project:** static webpage
 
@@ -76,6 +76,7 @@ Legend: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 Add a one-line entry whenever a topic changes state. Newest at top.
 
+- 2026-06-09: Started Phase 1 CSS; created lesson, example, and understanding check.
 - 2026-06-09: Completed Phase 1 HTML; created `quick-reference.md` and queued CSS next.
 - 2026-06-01: Edited the HTML example into a `2026 Fitness Goals` page.
 - 2026-06-01: Finished HTML "Why it exists / benefits"; moved to "Where it's used."
